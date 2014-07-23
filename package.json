@@ -1,8 +1,8 @@
 {
-	"name": "coffee-loader",
+	"name": "iced-loader",
 	"version": "0.7.2",
-	"author": "Tobias Koppers @sokra",
-	"description": "coffee loader module for webpack",
+	"author": "Dylan Lukes <lukes.dylan@gmail.com>",
+	"description": "iced loader module for webpack",
 	"dependencies": {
 		"loader-utils": "0.2.x"
 	},
@@ -11,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:webpack/coffee-loader.git"
+		"url": "git@github.com:DylanLukes/iced-loader.git"
 	},
 	"licenses": [
 		{
