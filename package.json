@@ -1,6 +1,6 @@
 {
 	"name": "iced-loader",
-	"version": "0.7.2",
+	"version": "0.7.3",
 	"author": "Dylan Lukes <lukes.dylan@gmail.com>",
 	"description": "iced loader module for webpack",
 	"dependencies": {
