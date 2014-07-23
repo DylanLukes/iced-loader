@@ -3,10 +3,10 @@
 ## Usage
 
 ``` javascript
-var exportsOfFile = require("coffee!./file.coffee");
-// => return exports of executed and compiled file.coffee
+var exportsOfFile = require("iced!./file.iced");
+// => return exports of executed and compiled file.iced
 
-var exportsOfFile2 = require("coffee?literate!./file.litcoffee");
+var exportsOfFile2 = require("iced?literate!./file.litcoffee");
 // can also compile literate files.
 ```
 
@@ -18,12 +18,16 @@ var exportsOfFile2 = require("coffee?literate!./file.litcoffee");
 {
 	module: {
 		loaders: [
-			{ test: /\.coffee$/, loader: "coffee-loader" },
-			{ test: /\.(coffee\.md|litcoffee)$/, loader: "coffee-loader?literate" }
+			{ test: /\.iced$/, loader: "iced-loader" },
+			{ test: /\.(iced\.md|litcoffee)$/, loader: "iced-loader?literate" }
 		]
 	}
 }
 ```
+
+### Notes
+
+You can also use the `.coffee` extension without any issue. `.iced` is preferred for clarity.
 
 ## License
 
