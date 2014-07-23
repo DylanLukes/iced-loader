@@ -7,7 +7,7 @@
 		"loader-utils": "0.2.x"
 	},
 	"peerDependencies": {
-		"coffee-script": "1.x"
+		"iced-coffee-script": "1.x"
 	},
 	"repository": {
 		"type": "git",
